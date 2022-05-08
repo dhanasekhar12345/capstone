@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html style="background:grey">
+<head>
+<title></title>
+ <h1 style="frony-size:300%"> Ebay-Company</h1>
+ 
+<style>
+
+
+h1 {
+  font-size: 55px;
+}
+
+* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: Green;
+			background-blend-mode: blue;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+	
+
+		
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		
+		
+		
+		
+		
+		.nav-list li a {
+			text-decoration: none;
+			color:White;
+		}
+
+		.nav-list li a:hover {
+			color: red;
+		}
+
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 16px;
+			border: 2px solid white;
+			border-radius: 9px;
+		}
+
+	.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 75%;
+			margin: auto;
+			height: 75%;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+
+
+		
+		
+		
+		
+		
+		
+		
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial;
+}
+
+.price {
+color: grey;
+font-size: 22px;
+}
+
+.card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card button:hover {
+	opacity: 0.7;
+	background:red;
+}
+
+
+
+#container { width: auto; margin: auto; background-color:grey; padding: 20px; }
+.row { height: 150px; margin-bottom: 20px; position: relative; }
+.row div { height: 100%; }
+.single { background-color: white; }
+.column-2 { width: auto; padding-left:20px; }
+.column-3 { width: auto; padding-left:20px; }
+.column-4 { width: auto; padding-left:20px; }
+.left { float: left; }
+.center { float: left;  }
+.right {  float: right; }
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+</style>
+
+
+		<!-- 1st  <script>
+function myColor(){
+var color= document.getElementById("color");
+
+console.log(color.value)
+
+if(color.value === 'red'){
+var p1= document.getElementById("p1");
+
+document.getElementById('p1').src = 'C:\Users\Dell\Desktop\blue2\BLUE.jpg';
+}else{
+document.getElementById('p1').src = 'C:\Users\Dell\Desktop\Mid Blue1\Blue.jpg';
+}
+
+}
+
+</script>
+	  -->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</head>
+<body>
+<!------script>
+<h2 style="text-align:center">Products</h2>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="E:\Project\view\products.html">Mens Wear</a>
+  <a href="E:\Project\view\mobiles.html">Mobiles</a>
+  <a href="E:\Project\view\laptops.html">Laptops</a>
+  <a href="E:\Project\view\jewellery.html">Jewellery</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Categories</span>
+</script>--->
+
+
+<!----script>
+
+<table border="0" width="100%" bgcolor="red" height="8%">
+<tr>
+<th width="20%"><font color="white"  size="4"><a href="anchortag.html">Home</a></font></th>
+<th width="20%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/pk%20roa/Mens%20Wear.html">Mens Wear</a></front></th>
+
+<th width="20%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/pk%20roa/mobile2.html">Moblie</a></front></th>
+
+<th width="20%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/pk%20roa/laptops.html">Laptops</a></front></th>
+
+<th width="20%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/pk%20roa/jewellery.html">Jewellery</a></front></th>
+</tr>
+
+</table>
+</script>----->
+
+
+
+   
+<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				
+			</div>
+
+<table border="0" width="100%" bgcolor="green" height="8%">
+<tr>
+<th width="10%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/Homexxxx.html">Home</a></font></th>
+<th width="10%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/New%20folder/Mens%20Wear.html">Mens Wear</a></front></th>
+
+<th width="10%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/New%20folder/mobile2.html">Mobile</a></front></th>
+
+<th width="10%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/New%20folder/laptops.html">Laptops</a></front></th>
+
+<th width="10%"><font color="white"  size="4"><a href="file:///C:/Users/Dell/Desktop/New%20folder/jewellery.html">Jewellery</a></front></th>
+<th width="10%"><font color="white"  size="4"><a href="#">Cart</a></front></th>
+
+<th width="10%"><font color="white"  size="4"><a href="#">Order Details</a></front></th>
+
+</tr>
+
+</table>
+</ul>
+
+		 	        
+
+<div class="rightNav">
+
+                  
+	<li><a href="#Call" >Call-us: +91 9010954460</a></li>
+		  
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+
+
+
+
+     </div>
+	</nav>
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+	</div>
+	</div>
+
+
+
+
+
+<div id="container">
+
+<div class="row triple">
+	<div class="column-1 left">
+
+		<div class="card">
+		  <img src="E:\Project\images\jewellers_1.jpg" id="p1" alt="Sukkhi Ethnic Jewellery" style="width:100%">
+		  <h1>Sukkhi Jewellery</h1>
+		  <p>Price: 100&#8377;</p>
+		  <p>This sukkhi antique gold plated string necklace set combo for women is made of alloy. women love jewellery.</p>
+			<label for="color">Color:</label>
+			<select name="jeans_color" id="color" onChange="myColor()">
+			  <option value="Gold">Gold</option>
+			  <option value="silver"> silver</option>
+			</select>
+			<div style="padding-top:10px">
+			<label for="quantity" style="margin-top:20px">Quantity:</label>
+			<select name="quantity" id="quantity">
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			</select>
+			<p><button>Add to Cart</button></p>
+			</div>
+		</div>
+	</div>
+	<div class="column-2 center">
+		<div class="card">
+		  <img src="E:\Project\images\jewellers_2.jpg" alt="LCT Gold Jewellery" style="width:100%">
+		  <h1>Sukkhi Jewellerys</h1>
+		 <p>Price: 200&#8377;</p>
+		  <p>This Sukkhi Glamorous Gold Plated Choker Necklace Set Combo For Women is Made Of Alloy.</p>
+			<label for="color">Color:</label>
+			<select name="jeans_color" id="color">
+			  <option value="Gold">Gold</option>
+			  <option value="silver">silver</option>
+			</select>
+			<div style="padding-top:10px">
+			<label for="quantity" style="margin-top:20px">Quantity:</label>
+			<select name="quantity" id="quantity">
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			</select>
+			  <p><button>Add to Cart</button></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="column-3 center">
+		<div class="card">
+		  <img src="E:\Project\images\jewellers_3.jpg" alt="SukkhiSen jewellers" style="width:100%">
+		  <h1>Necklace jewellers</h1>
+		  <p>Price: 300&#8377;</p>
+		  <p>This sukkhi sensational gold plated combo for women is made of alloy. women love jewellery.</p>
+			<label for="color">Color:</label>
+			<select name="jeans_color" id="color">
+			  <option value="Gold">Gold</option>
+			  <option value="Silver">Silver</option>
+			</select>
+			<div style="padding-top:10px">
+			<label for="quantity" style="margin-top:20px">Quantity:</label>
+			<select name="quantity" id="quantity">
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			</select>
+			  <p><button>Add to Cart</button></p>
+			</div>
+		</div>
+	</div>
+<div class="column-4 center">
+		<div class="card">
+		  <img src="E:\Project\images\jewellers_4.jpg" alt="SukkhiSen Set for Women jewellers" style="width:100%">
+		  <h1>Asmitta jewellers</h1>
+		<p>Price: 500&#8377;</p>
+		  <p>A perfect pick to raise your opera style quotient. this traditional indian wear gold plated opera style .</p>
+			<label for="color">Color:</label>
+			<select name="jeans_color" id="color">
+			  <option value="Gold">Gold </option>
+			  <option value="Silver">Silver</option>
+			</select>
+			<div style="padding-top:10px">
+			<label for="quantity" style="margin-top:20px">Quantity:</label>
+			<select name="quantity" id="quantity">
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			</select>
+			  <p><button>Add to Cart</button></p>
+			</div>
+		</div>
+	</div>
+	
+	</div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

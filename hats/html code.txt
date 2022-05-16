@@ -1,11 +1,11 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content>
     <meta name="viewport" content="width=device">
-    <link rel="stylesheet" href="shipment.css">
+    <link rel="stylesheet" href="SHIP.CSS">
     <title>CSS Shipping Tracker Design</title>
   </head>
   
@@ -32,19 +32,19 @@
       <div class="lists">
         <div class="list">
           <img src="C:\photos\ship.jpg">
-          <p>Order processed</p>
+          <p>Order</br> processed</p>
         </div>
         <div class="list">
             <img src="C:\photos\op.jpg">
-            <p>Order pickup</p>
+            <p>Order</br> pickup</p>
       </div>
       <div class="list">
         <img src="C:\photos\download.jpg">
-        <p>Order shipped</p>
+        <p>Order</br> shipped</p>
     </div>
     <div class="list">
         <img src="C:\photos\oip.jpg">
-        <p>Order arrived</p>
+        <p>Order</br> arrived</p>
         </div>
         </div>
         </div>

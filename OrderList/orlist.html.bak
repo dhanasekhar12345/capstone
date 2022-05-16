@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Details List</title>
+	<link rel="stylesheet" href="list.css">
+</head>
+<body>
+<p>Order Details List</p>
+<table>
+  <tr>
+    <th>OrderID</th>
+    <th>Oreder Date</th>
+    <th>Customer</th>
+	<th>Status</th>
+	<th>Payment Type</th>
+	<th>Details</th>
+  </tr>
+  <tr>
+    <td>D9380984192ZX</td>
+    <td>17/03/2022</td>
+    <td>Dhana Shekar</td>
+	<td>Delivered</td>
+	<td>COD</td>
+	<td>
+	<a href="url">Details</a>
+	</td>
+  </tr>
+  <tr>
+    <td>#DSH89765A</td>
+    <td>21/02/2022</td>
+    <td>Dhana Shekar</td>
+	<td>Delivered</td>
+	<td>COD</td>
+	<td>
+	<a href="url">Details</a>
+	</td>
+  </tr>
+  <tr>
+    <td>#DSH432565B</td>
+    <td>14/01/2022</td>
+    <td>Dhana Shekar</td>
+	<td>Delivered</td>
+	<td>UPI</td>
+	<td>
+	<a href="url">Details</a>
+	</td>
+  <tr/>
+  <tr>
+    <td>#DSH437637C</td>
+    <td>10/01/2022</td>
+    <td>Dhana Shekar</td>
+	<td>Delivered</td>
+	<td>DebitCard</td>
+	<td>
+	<a href="url">Details</a>
+	</td>
+  <tr/>
+  <tr>
+    <td>#DSH66738838D</td>
+    <td>22/12/2021</td>
+    <td>Dhana Shekar</td>
+	<td>Delivered</td>
+	<td>COD</td>
+	<td>
+	<a href="url">Details</a>
+	</td>
+  <tr/>
+  <tr>
+    <td>#DSH5265428E</td>
+    <td>12/11/2021</td>
+    <td>Dhana Shekar</td>
+	<td>Delivered</td>
+	<td>UPI</td>
+	<td>
+	<a href="url">Details</a>
+	</td>
+  <tr/>
+  <tr>
+    <td>#DSH68354282F</td>
+    <td>02/09/2021</td>
+    <td>Dhana Shekar</td>
+	<td>Delivered</td>
+	<td>COD</td>
+	<td>
+	<a href="url">Details</a>
+	</td>
+  <tr/>
+  <tr>
+    <td>#DSH824515G</td>
+    <td>21/06/2021</td>
+    <td>Dhana Shekar</td>
+	<td>Delivered</td>
+	<td>COD</td>
+	<td>
+	<a href="url">Details</a>
+	</td>
+  <tr/>
+</table>
+</body>
+</html>

@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html lang="en"> 
+<head>
+<link rel="stylesheet" href="C:\Users\Srihari\Desktop\ProductListCss.css">
+<title>Product List</title>
+</head>
+<body>
+<div class="container">
+<a href="file:///C:/Users/Srihari/Desktop/Admin.html" type="submit"class="btn1"> &#60;-- Go to Dashboard </a>
+ <div class="product-display">
+      <table class="product-display-table">
+         <thead>
+         <tr>
+            <th>product image</th>
+			<th>product id</th>
+            <th>product name</th>
+			<th>colour</th>
+			<th>quantity</th>
+			<th>discription</th>
+            <th>product price</th>
+            <th>action</th>
+         </tr>
+         </thead>
+         <?php while($row = mysqli_fetch_assoc($select)){ ?>
+         <tr>
+            <td><img src="uploaded_img" height="100" alt=""></td>
+            <td></td>
+            <td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>
+            <td>
+               <a href="admin_update.php?edit=<?php echo $row['id']; ?>" class="btn"> <i class="fas fa-edit"></i> edit </a>
+               <a href="admin_page.php?delete=<?php echo $row['id']; ?>" class="btn"> <i class="fas fa-trash"></i> delete </a>
+            </td>
+         </tr>
+      <?php } ?>
+      </table>
+   </div>
+</div>
+</body>
+</html>
